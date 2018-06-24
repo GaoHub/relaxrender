@@ -25,7 +25,7 @@ class Face:
 #     def add_point(self,p):
 #         self.points.append(p)
 
-def DOO_Sabin_single_time(faces):
+def DOO_Sabin_single_time(faces):           #三个接口
     for f in faces:
         f = get_new_face(f)
     for points_ds in points_doos:
@@ -120,7 +120,7 @@ def get_average_point(points):
 
 
 '''
-debug:print the x,y,z of the point
+debug:print the x,y,z of the point       #debug内容 输入点的坐标
 '''
 
 
@@ -171,7 +171,7 @@ if __name__ == '__main__':
     face_test_3 = Face([point_test_1, point_test_5, point_test_7, point_test_3])
     face_test_4 = Face([point_test_3, point_test_4, point_test_8, point_test_7])
     face_test_5 = Face([point_test_5, point_test_6, point_test_8, point_test_7])
-    face_test_6 = Face([point_test_2, point_test_4, point_test_8, point_test_6])
+    face_test_6 = Face([point_test_2, point_test_4, point_test_8, point_test_6])            #some points to test
     faces_test=[face_test_1,face_test_2,face_test_3,face_test_4,face_test_5,face_test_6]
     print_obj(DOO_Sabin(faces_test,6))
     # points_test=[point_test_1,point_test_2,point_test_3,point_test_4]
