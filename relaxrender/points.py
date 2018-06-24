@@ -2,7 +2,7 @@ import numpy as np
 
 from .color import Color
 
-__all__ = ['Point3D', 'Point2D', 'Vector', 'Point', 'Point3D_store', 'Points']  #输入一定点的坐标
+__all__ = ['Point3D', 'Point2D', 'Vector', 'Point', 'Point3D_store', 'Points']  
 
 class Point3D:
     data_width = 3
