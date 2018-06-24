@@ -120,7 +120,7 @@ def get_average_point(points):
 
 
 '''
-debug:print the x,y,z of the point       #debug内容 输入点的坐标
+debug:print the x,y,z of the point                                                          #  输入点的坐标进行测试
 '''
 
 
