@@ -115,7 +115,7 @@ def get_average_point(points):
         x_sum = x_sum + p.data[0]
         y_sum = y_sum + p.data[1]
         z_sum = z_sum + p.data[2]
-    Apoint = Point3D(x_sum / len(points), y_sum / len(points), z_sum / len(points))
+    Apoint = Point3D(x_sum / len(points), y_sum / len(points), z_sum / len(points))#将点的坐标和放入其中进行运算求出其他顶点的坐标
     return Apoint
 
 
